@@ -17,25 +17,25 @@ public class Wrestler {
     private String last_name;
     private String telephone;
     private String email;
-    private String date;
+    private String member_since;
 
-    public Wrestler(int id, String first_name, String nick_name, String last_name, String telephone, String email, String date) {
+    public Wrestler(int id, String first_name, String nick_name, String last_name, String telephone, String email, String member_since) {
         this.id = id;
         this.first_name = first_name;
         this.nick_name = nick_name;
         this.last_name = last_name;
         this.telephone = telephone;
         this.email = email;
-        this.date = date;
+        this.member_since = member_since;
     }
 
-    public Wrestler(String first_name, String nick_name, String last_name, String telephone, String email, String date) {
+    public Wrestler(String first_name, String nick_name, String last_name, String telephone, String email, String member_since) {
         this.first_name = first_name;
         this.nick_name = nick_name;
         this.last_name = last_name;
         this.telephone = telephone;
         this.email = email;
-        this.date = date;
+        this.member_since = member_since;
     }
 
     public int getId() {
